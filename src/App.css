@@ -41,21 +41,3 @@
 .btn:hover {
   cursor: pointer;
 }
-.program-categories {
-  display: flex;
-  gap: 1rem;
-}
-.category {
-  display: flex;
-  gap: 1rem;
-  flex-direction: column;
-  padding: 2rem;
-  background-color: var(--gray);
-  color: var(--white);
-  justify-content: space-between;
-}
-.category > :nth-child(1) {
-  width: 2rem;
-  height: 2rem;
-  fill: var(--white);
-}
